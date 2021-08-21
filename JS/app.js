@@ -12,7 +12,6 @@ function updateMemoryCost(product, price, priceCost) {
         memoryCost = price;
     }
     memoryInput.innerText = memoryCost;
-
 };
 document.getElementById('upper-memory-button').addEventListener('click', function () {
     updateMemoryCost('memory', 180, true);
@@ -104,15 +103,4 @@ document.getElementById('code-button').addEventListener('click', function (event
     else {
         codeInput.value = ' ';
     }
-
 });
-// /*=====================================
-//              Discount price
-// ======================================*/
-
-// function Total() {
-//     const totalWithDiscount = calculateTotal();
-
-//     const total = document.getElementById('total-cost').innerText = total;
-//     document.getElementById('after-discount').innerText = total;
-// };
